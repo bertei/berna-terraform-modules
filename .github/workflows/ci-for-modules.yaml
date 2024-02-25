@@ -1,7 +1,6 @@
 name: Continuous Integration for Terraform modules
-
 on:
-  pull-requests:
+  pull_request:
     branches:
       - main
     paths:
